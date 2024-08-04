@@ -8,9 +8,9 @@ export NC='\033[0m'
 
 
 # Welcome message
-echo -e "${BOLD}${DARK_YELLOW}Automated Eclipse-Testnet transaction executor by WALIULLAH${NC}"
+echo -e "${CYAN}Automated Eclipse-Testnet transaction executor by WALIULLAH${NC}"
 echo
-echo -e "${BOLD}${CYAN}For more information, join us on Telegram @earnwithwali${NC}"
+echo -e "${CYAN}For more information, join us on Telegram @earnwithwali${NC}"
 echo
 sleep 10
 
