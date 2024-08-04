@@ -8,9 +8,9 @@ export NC='\033[0m'
 
 
 # Welcome message
-echo -e "${BOLD}${DARK_YELLOW}Automated Eclipse-Testnet transaction executor by WALIULLAH${RESET}"
+echo -e "${BOLD}${DARK_YELLOW}Automated Eclipse-Testnet transaction executor by WALIULLAH${NC}"
 echo
-echo -e "${BOLD}${CYAN}For more information, join us on Telegram @earnwithwali${RESET}"
+echo -e "${BOLD}${CYAN}For more information, join us on Telegram @earnwithwali${NC}"
 echo
 sleep 10
 
@@ -150,5 +150,5 @@ execute_and_prompt "Checking Program Address..." "solana address"
 echo
 echo -e "${YELLOW}Submit Feedback at${NC}: https://docs.google.com/forms/d/e/1FAIpQLSfJQCFBKHpiy2HVw9lTjCj7k0BqNKnP6G1cd0YdKhaPLWD-AA/viewform?pli=1"
 echo
-echo -e "${CYAN}Submit Feedback at${NC}"
+echo -e "${CYAN}Join Us @earnwithwali"
 echo
