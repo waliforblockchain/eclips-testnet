@@ -3,15 +3,16 @@
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
 export YELLOW='\033[1;33m'
+export CYAN="\033[0;36m"
 export NC='\033[0m'
 
 
 # Welcome message
-echo -e "${BOLD}${DARK_YELLOW}Automated Allora Worker Node Setup by WALIULLAH${RESET}"
+echo -e "${BOLD}${DARK_YELLOW}Automated Eclipse-Testnet transaction executor by WALIULLAH${RESET}"
 echo
 echo -e "${BOLD}${CYAN}For more information, join us on Telegram @earnwithwali${RESET}"
 echo
-sleep 2
+sleep 10
 
 
 prompt() {
@@ -127,7 +128,7 @@ for ((i=1; i<=repeat_count; i++)); do
     sleep 3
 done
 
-echo -e "${RED}It will take some times, Don't do anything, Just Wait${RESET}"
+echo -e "${RED}It will take 5 minutes, Don't do anything, Just Wait...${RESET}"
 echo
 
 sleep 240
@@ -148,4 +149,6 @@ echo
 execute_and_prompt "Checking Program Address..." "solana address"
 echo
 echo -e "${YELLOW}Submit Feedback at${NC}: https://docs.google.com/forms/d/e/1FAIpQLSfJQCFBKHpiy2HVw9lTjCj7k0BqNKnP6G1cd0YdKhaPLWD-AA/viewform?pli=1"
+echo
+echo -e "${CYAN}Submit Feedback at${NC}"
 echo
